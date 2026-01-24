@@ -1,0 +1,18 @@
+site_name: Tennis Analyzer
+site_description: Advanced ATP Tennis Statistics Analysis
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Getting Started: START_HERE.md
+  - User Guide: GUIDA_UTENTE.md
+  - Architecture: ARCHITECTURE.md
+  - Executive Summary: EXECUTIVE_SUMMARY.md
+  - Quick Reference: QUICK_REFERENCE.py
+  - Project Summary: PROJECT_SUMMARY.py
+
+markdown_extensions:
+  - tables
