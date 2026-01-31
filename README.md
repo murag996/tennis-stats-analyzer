@@ -76,5 +76,3 @@ python main.py
 
 - Aggiungere test unitari con pytest
 - Dashboard interattivo con Plotly
-- Analisi predittive con sklearn
-- Metriche avanzate (Elo rating, performance indexes)
