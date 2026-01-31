@@ -12,7 +12,6 @@ Progetto di analisi dati ATP Tennis utilizzando Python, Pandas, Matplotlib e Sea
 ## Dataset Utilizzati
 
 - **Jeff Sackmann (GitHub)**: Database storico ATP matches (gold standard)
-- **Tennis-data.co.uk**: Dataset complementare con odds e dettagli storici
 
 ## Struttura Progetto
 
