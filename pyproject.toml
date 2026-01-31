@@ -3,7 +3,7 @@ name = "tennis-stats-analyzer"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 authors = [
     {name = "Data Analyst", email = "analyst@example.com"}
 ]
