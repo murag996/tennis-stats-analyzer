@@ -20,10 +20,9 @@ VISUALS_DIR.mkdir(parents=True, exist_ok=True)
 
 # URL Dataset
 GITHUB_SACKMANN_URL = "https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master"
-MATCHES_FILE_URL = f"{GITHUB_SACKMANN_URL}/atp_matches_2015.csv"
 
 # Parametri di analisi
-ANALYSIS_YEARS = range(2015, 2026)  # Ultimi 10+ anni
+ANALYSIS_YEARS = range(2014, 2026)  # 2025-2026 non ancora disponibili su github
 MIN_MATCHES_PLAYER = 20  # Minimo match per inclusione analisi
 
 # Logging

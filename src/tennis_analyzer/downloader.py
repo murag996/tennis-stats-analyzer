@@ -17,7 +17,7 @@ class ATPDataDownloader:
     """Download e gestione dataset ATP tennis da GitHub"""
     
     def __init__(self):
-        self.base_url = "https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master"
+        self.base_url = config.GITHUB_SACKMANN_URL
         self.timeout = 30
         self.raw_data_dir = config.RAW_DATA_DIR
     
