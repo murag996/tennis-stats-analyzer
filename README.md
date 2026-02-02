@@ -63,6 +63,7 @@ uv --version
 Quindi sincronizza il progetto:
 ```bash
 uv sync --python 3.13
+```
 
 ## Utilizzo
 
@@ -74,7 +75,6 @@ source .venv/bin/activate  # Linux/Mac
 python main.py
 deactivate #once completed
 ```
-
 
 ## Requisiti Specifici Soddisfatti
 
