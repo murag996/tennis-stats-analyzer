@@ -47,7 +47,7 @@ tennis-stats-analyzer/
 
 **Windows:**
 ```bash
-powershell -ExecutionPolicy BypassCurrentUser -c "irm https://astral.sh/uv/install.ps1 | iex"
+powershell -ExecutionPolicy Bypass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 **Linux/Mac:**

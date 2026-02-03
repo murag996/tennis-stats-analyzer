@@ -39,21 +39,43 @@ tennis-stats-analyzer/
 └── main.py                     # Entry point
 ```
 
+
+
 ## Installazione
 
-```bash
-# Usando uv (gestore package Rust-based, velocissimo)
-uv sync --python 3.13
+### Installazione uv per Windows e Linux/Mac
 
-# Attivare environment
-source .venv/bin/activate
+**Windows:**
+```bash
+powershell -ExecutionPolicy Bypass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+**Linux/Mac:**
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Verifica installazione:
+```bash
+uv --version
+```
+
+Quindi sincronizza il progetto e attiva env:
+```bash
+uv sync --python 3.13
+source .venv/bin/activate  # Linux/Mac
+# oppure
+.venv\Scripts\activate  # Windows
 ```
 
 ## Utilizzo
 
 ```bash
 python main.py
+#oppure 
+uv run main.py
 ```
+
 
 ## Requisiti Specifici Soddisfatti
 
@@ -76,5 +98,3 @@ python main.py
 
 - Aggiungere test unitari con pytest
 - Dashboard interattivo con Plotly
-- Analisi predittive con sklearn
-- Metriche avanzate (Elo rating, performance indexes)
