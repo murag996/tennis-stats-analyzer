@@ -60,22 +60,21 @@ Verifica installazione:
 uv --version
 ```
 
-Quindi sincronizza il progetto e attiva env:
+Quindi sincronizza il progetto:
 ```bash
 uv sync --python 3.13
-source .venv/bin/activate  # Linux/Mac
-# oppure
-.venv\Scripts\activate  # Windows
 ```
 
 ## Utilizzo
 
 ```bash
-python main.py
-#oppure 
 uv run main.py
+#oppure 
+source .venv/bin/activate  # Linux/Mac
+.venv\Scripts\activate  # Windows
+python main.py
+deactivate #once completed
 ```
-
 
 ## Requisiti Specifici Soddisfatti
 
