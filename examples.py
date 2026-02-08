@@ -253,6 +253,7 @@ if __name__ == "__main__":
         logger.info("Head-to-head examples:\n")
         example_4_head_to_head(df_clean, "Novak Djokovic", "Rafael Nadal")
         example_4_head_to_head(df_clean, "Roger Federer", "Novak Djokovic")
+        example_4_head_to_head(df_clean, "Jannik Sinner", "Carlos Alcaraz")
         
         logger.info("\n" + "="*60)
         example_5_temporal_analysis(df_clean)
